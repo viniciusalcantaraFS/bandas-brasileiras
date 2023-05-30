@@ -1,0 +1,247 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+  
+
+  :root {
+
+    --fonte1: arial, helvetica, sans-serif;
+    --fonte2: 'Rock Salt, cursive;'
+  }
+
+body, html {
+
+    min-height: 100vh;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+} 
+
+
+
+
+
+header {
+
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+   
+}
+
+
+
+
+header > h1 {
+
+    font-family: 'Rock Salt';
+    font-weight: 600;
+    font-size: 2em;
+}
+
+
+
+
+header > p {
+
+    padding-bottom: 34px;
+}
+
+
+a.linksdecontent {
+
+    text-decoration: none;
+    font-weight: bold;  
+    color: rgb(0, 0, 0);
+    background-color: rgb(220, 251, 251);
+    border-radius: 3px;
+    padding: 2px;
+
+}
+
+
+a.linksdecontent:hover {
+
+    text-decoration: underline;
+
+}
+
+
+
+
+
+a.links {
+
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+a.links:hover {
+
+    text-decoration: underline;
+}
+
+
+
+
+section.imagem {
+
+    
+    background-color: rgb(191, 191, 191);
+    padding: 30px 30px 30px 30px;
+    color: white;
+    box-shadow: inset 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+
+div.textoadicional {
+
+    max-width: 800px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    padding: 30px 30px 15px 30px;
+     
+}
+
+
+
+section#img1 {
+
+    background-image: url('../imagens/cpm22.jpg');
+    background-size: cover;
+
+}
+
+
+section#img2 {
+
+    background-image: url(../imagens/dead_fish_divulgacao.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+
+}
+
+
+
+section#img3 {
+
+    background-image: url('../imagens/CBJR.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+
+}
+ h2 {
+
+    background-color: gainsboro ;
+    font-size: 2em;
+    color: black;
+    padding: 30px 30px 30px 15px;
+
+}
+
+
+
+
+
+
+
+
+
+
+.paragrafoprincipal {
+    
+    margin-bottom: 30px;
+
+}
+
+
+
+
+div.quadro {
+
+    
+    text-align: justify;
+    max-width: 450px;
+    padding: 30px;
+    font-size: 1.5em;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+
+
+
+
+.sucessos {
+    
+    margin-bottom: 10px;
+    font-size: 0.8em;
+}
+
+
+
+
+ul {
+
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+
+ol {
+
+    list-style-position: inside;
+}
+
+footer {
+
+    background-color: black;
+    color: white;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    bottom: 0px;
+    padding: 5px;
+
+}
+
+
+
+
+.descSemPadBottom {
+
+    font-size: 1.5em;
+    line-height: 1.4em;
+   margin-bottom: 1em;
+    
+}
+
+article.padsdescricoes {
+
+
+    padding-top: 30px;
+    padding-right: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+
+}
+
+strong {
+
+    font-weight: ;
+}
